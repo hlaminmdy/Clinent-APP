@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Movie Box</string>
+    <string name="openDrawer">Open Dreawer</string>
+    <string name="closeDrawer">Close Dreawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home_frag">Home</string>
+    <string name="Movie_frag">Movies</string>
+    <string name="all_str">All</string>
+
+
+    <string name="request_ref">requests</string>
+
+    <string name="Series_frag">Series</string>
+    <string name="Share_frag">Share</string>
+    <string name="Request_str">Request</string>
+    <string name="About_frag">About</string>
+    <string name="series_det_frag">Series Detali</string>
+    <string name="movie_det_frag">Movie Detail</string>
+    <string name="search_frag">Search</string>
+
+    <string name="number_pin">7777777</string>
+
+
+
+
+    <!-- Test Ads
+
+
+    <string name="app_id">ca-app-pub-4466111461490622~4253793098</string>
+    <string name="banner_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intersititial_unite_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_unite_ads">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="rewareded_id">ca-app-pub-3940256099942544/5224354917</string>-->
+
+
+
+   // Real Ads
+    <string name="app_id">ca-app-pub-7016299273719206~5546693466</string>
+    <string name="banner_unit_id">ca-app-pub-7016299273719206/3095789941</string>
+    <string name="intersititial_unite_id">ca-app-pub-7016299273719206/3834156541</string>
+    <string name="native_unite_ads">ca-app-pub-7016299273719206/3451013166</string>
+    <string name="rewareded_id">ca-app-pub-7016299273719206/7390258177</string>
+
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VideoDetialFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <RelativeLayout
+               android:background="@color/colorOnPrimary"
+               android:id="@+id/play_connet"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+                   android:id="@+id/player_view"
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"/>
+
+
+               <ProgressBar
+                   android:id="@+id/progressbar"
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:layout_centerInParent="true"/>
+
+
+           </RelativeLayout>
+
+           <RelativeLayout
+
+               android:id="@+id/control"
+               android:layout_below="@+id/play_connet"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/purple">
+
+               <ImageView
+
+                 android:layout_marginLeft="@dimen/padding_20"
+                  android:id="@+id/fullscreen"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_fullsceen"
+                   android:tint="@color/color_white"/>
+
+               <ImageView
+                   android:layout_marginRight="@dimen/padding_10"
+                   android:layout_alignParentRight="true"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_fav"
+                   android:tint="@color/White_color"/>
+
+
+           </RelativeLayout>
+
+           <com.google.android.ads.nativetemplates.TemplateView
+               android:layout_margin="@dimen/padding_20"
+               android:id="@+id/smalltemplate"
+               android:layout_below="@+id/control"
+               app:gnt_template_type="@layout/gnt_medium_template_view"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" />
+
+           <com.google.android.ads.nativetemplates.TemplateView
+               android:layout_margin="20dp"
+               android:id="@+id/largetemplate"
+               android:layout_below="@+id/smalltemplate"
+               app:gnt_template_type="@layout/gnt_medium_template_view"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent" />
+
+
+
+           <com.google.android.material.floatingactionbutton.FloatingActionButton
+               android:id="@+id/btndownload"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:src="@drawable/ic_download"
+               android:backgroundTint="@color/purple"
+               android:tint="@color/White_color"
+               android:layout_marginRight="30dp"
+               android:layout_marginBottom="30dp"/>
+
+       </RelativeLayout>
+
+   </ScrollView>
+
+</FrameLayout>
