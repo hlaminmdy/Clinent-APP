@@ -89,28 +89,10 @@
                 android:padding="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="hlaminthna.mdy.cr777@gmail.com"
+                android:text="soewin.mdy.1989@gmail.com"
                 android:textStyle="bold"
                 android:textSize="20dp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Phone"
-                android:textSize="30dp"
-                android:textStyle="bold"/>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="5dp"
-                android:background="@color/colorPrimaryLight"/>
 
-            <TextView
-
-                android:padding="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="0969109063"
-                android:textStyle="bold"
-                android:textSize="20dp"/>
 
 
             <FrameLayout
