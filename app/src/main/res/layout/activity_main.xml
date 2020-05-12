@@ -50,14 +50,14 @@
                 android:gravity="center"
                 android:text=" ကျေးဇူးပြုပြီး
  \npassword (7)
-                (7)လုံးရိုက်ထည့်ပေးပါ။"
+                (3)လုံးရိုက်ထည့်ပေးပါ။"
                 android:textColor="@color/red_Black"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@drawable/edtbg"
-                android:hint="7777777"
+                android:hint="777"
                 android:id="@+id/number"
                 android:padding="20dp"/>
 
